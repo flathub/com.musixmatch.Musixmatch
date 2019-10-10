@@ -41,11 +41,11 @@ modules:
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://download-app.musixmatch.com/download/version/3.3.1/linux
-        filename: musixmatch-3.3.1.tar.gz
-        sha256: 6428fc987f87c2838ea79d95b240e287d196582cd8976f1649f8353cdcd527aa
-        size: 95186036
-        installed-size: 301M
+        url: https://download-app.musixmatch.com/download/version/3.6.1/linux
+        filename: musixmatch-3.6.1.tar.gz
+        sha256: 8bcabad2fcb17818469e936d7f2f76a4da712d3f49f4f1f031783c24d5fb09f3
+        size: 86482436
+        installed-size: 282586624
       - type: script
         dest-filename: musixmatch.sh
         commands:
