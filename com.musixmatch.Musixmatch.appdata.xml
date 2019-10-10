@@ -21,35 +21,35 @@
   <screenshots>
     <screenshot type="default">
       <caption>First run</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/intro_1.png</image>
+      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/intro_1.png</image>
     </screenshot>
     <screenshot>
       <caption>First run</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/intro_2.png</image>
+      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/intro_2.png</image>
     </screenshot>
     <screenshot>
       <caption>First run</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/intro_3.png</image>
+      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/intro_3.png</image>
     </screenshot>
     <screenshot>
       <caption>First run</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/intro_4.png</image>
+      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/intro_4.png</image>
     </screenshot>
     <screenshot>
       <caption>The main Musixmatch window</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/main.png</image>
+      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/main.png</image>
     </screenshot>
     <screenshot>
       <caption>Always on mode</caption>
-      <image type="source" width="490" height="214">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/alwayson.png</image>
+      <image type="source" width="490" height="214">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/alwayson.png</image>
     </screenshot>
     <screenshot>
       <caption>Appearance options</caption>
-      <image type="source" width="490" height="310">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/options.png</image>
+      <image type="source" width="490" height="310">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/options.png</image>
     </screenshot>
     <screenshot>
       <caption>Contribute mode</caption>
-      <image type="source" width="1140" height="880">https://raw.githubusercontent.com/flathub/com.musixmatch.Musixmatch/master/screenshots/social.png</image>
+      <image type="source" width="1140" height="880">https://raw.githubusercontent.com/fchiacchiaretta/com.musixmatch.Musixmatch/master/screenshots/social.png</image>
     </screenshot>
   </screenshots>
   <releases>
