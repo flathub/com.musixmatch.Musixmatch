@@ -43,8 +43,8 @@ modules:
           - x86_64
         url: https://download-app.musixmatch.com/download/version/3.10/linux
         filename: musixmatch-3.10.4043-master.20200211001.tar.gz
-        sha256: 21e318a9f440d97ae455dcddd19b597c4316d19e520136490d5604a6a8552f34
-        size: 42405
+        sha256: 7c9bfefa9442ce0a96d11cf5a3f4451783ce3116e11feb694f901ce573aa36db
+        size: 42465
       - type: script
         dest-filename: musixmatch.sh
         commands:
