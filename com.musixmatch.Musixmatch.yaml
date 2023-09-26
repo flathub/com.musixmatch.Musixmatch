@@ -2,9 +2,9 @@ app-id: com.musixmatch.Musixmatch
 tags:
   - proprietary
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '23.08'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: musixmatch
 separate-locales: false
@@ -13,9 +13,20 @@ finish-args:
   - --share=ipc
   - --share=network
   - --device=dri
-  - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 modules:
+
+  - name: unsquashfs
+    buildsystem: simple
+    build-commands:
+      - XZ_SUPPORT=1 make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} unsquashfs
+      - install -Dpm755 -t "${FLATPAK_DEST}/bin" squashfs-tools/unsquashfs
+    sources:
+      - type: git
+        url: https://github.com/plougher/squashfs-tools.git
+        tag: 4.6.1
+        commit: d8cb82d9840330f9344ec37b992595b5d7b44184
+
   - name: musixmatch-desktop
     buildsystem: simple
     build-commands:
@@ -32,19 +43,19 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - tar xzf musixmatch-*.tar.gz
-          - rm -f musixmatch-*.tar.gz
-          - mv musixmatch-* musixmatch
-          - find musixmatch -type f -exec chmod 0644 '{}' \;
-          - find musixmatch -type d -exec chmod 0755 '{}' \;
-          - chmod 0755 musixmatch/musixmatch
+          - unsquashfs -dest musixmatch -quiet -no-progress musixmatch.snap
+          - rm -rf musixmatch/var musixmatch/usr musixmatch/meta musixmatch/lib musixmatch/etc musixmatch/bin musixmatch/command.sh musixmatch.snap
       - type: extra-data
         only-arches:
           - x86_64
-        url: https://download-app.musixmatch.com/download/version/3.10/linux
-        filename: musixmatch-3.10.4043-master.20200211001.tar.gz
-        sha256: e1a59af6553f9f7c57e87dfe8e3625599ccb61f71e7d216cbdec17a3eb869046
-        size: 42973
+        url: https://api.snapcraft.io/api/v1/snaps/download/GG3UVQtIKlFZgfwDdhNloeng06sJqF3U_18.snap
+        filename: musixmatch.snap
+        sha256: 0e23b935d0c453dca78b8f9203f3f067713e5e44923d60e1e13c133d8e1503cd
+        size: 141565952
+        x-checker-data:
+          type: snapcraft
+          name: musixmatch
+          channel: stable
       - type: script
         dest-filename: musixmatch.sh
         commands:
