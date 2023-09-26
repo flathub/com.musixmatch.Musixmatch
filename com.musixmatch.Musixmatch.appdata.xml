@@ -14,23 +14,59 @@
     <p>
       Enjoy lyrics everywhere - The world’s largest collection of song lyrics to enjoy with your music, on the go.
     </p>
+    <p> Sign-in and connection with Spotify is required </p>
     <p>
       NOTE: This wrapper is not verified by, affiliated with, or supported by Musixmatch S.p.A.
+    </p>
+    <p>
+      NOTE: The desktop app has been discontinued by Musixmatch S.p.A.
     </p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <caption>The main Musixmatch window</caption>
-      <image type="source" width="1140" height="720">https://raw.githubusercontent.com/fchiacchiaretta/flathub/com.musixmatch.Musixmatch/screenshots/main-view.png</image>
+      <caption>First run screen</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/intro_1.png</image>
     </screenshot>
     <screenshot>
-      <caption>Always-on-top mode</caption>
-      <image type="source" width="540" height="540">https://raw.githubusercontent.com/fchiacchiaretta/flathub/com.musixmatch.Musixmatch/screenshots/always-on-view.png</image>
+      <caption>First run screen</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/intro_2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>First run screen</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/intro_3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>First run screen</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/intro_4.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The main Musixmatch window</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/main.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Always on mode</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/alwayson.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Appearance options</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/options.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Contribute mode</caption>
+      <image>https://raw.githubusercontent.com/bbhtt/com.musixmatch.Musixmatch/snap/screenshots/social.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.10" date="2020-02-11"/>
-    <release version="3.3.1" date="2019-05-24"/>
+    <release date="2019-07-29" version="3.6.1">
+      <description>Changes</description>
+      <li>Bug Fix</li>
+    </release>
+    <release date="2019-07-19" version="3.6.0">
+      <description>Changes</description>
+      <li>Introducing Drafts</li>
+      <li>Bug Fix</li>
+    </release>
+    <release date="2019-05-24" version="3.3.1"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="social-audio">intense</content_attribute>
