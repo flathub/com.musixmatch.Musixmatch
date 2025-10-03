@@ -53,20 +53,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2019-07-29" version="3.6.1">
-      <description>Changes</description>
-      <li>Bug Fix</li>
-    </release>
-    <release date="2019-07-19" version="3.6.0">
-      <description>Changes</description>
-      <li>Introducing Drafts</li>
-      <li>Bug Fix</li>
-    </release>
+    <release date="2019-07-29" version="3.6.1"/>
+    <release date="2019-07-19" version="3.6.0"/>
     <release date="2019-05-24" version="3.3.1"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="social-audio">intense</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
-  <update_contact>federico.chia_AT_gmail.com</update_contact>
 </component>
