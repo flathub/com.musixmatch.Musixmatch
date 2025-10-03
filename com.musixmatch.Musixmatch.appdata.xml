@@ -11,16 +11,12 @@
   <url type="bugtracker">https://support.musixmatch.com</url>
   <url type="help">https://support.musixmatch.com</url>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Musixmatch S.p.A.**</p>
+    <p>**NOTE: The desktop app has been discontinued by Musixmatch S.p.A.**</p>
     <p>
       Enjoy lyrics everywhere - The world’s largest collection of song lyrics to enjoy with your music, on the go.
     </p>
     <p> Sign-in and connection with Spotify is required </p>
-    <p>
-      NOTE: This wrapper is not verified by, affiliated with, or supported by Musixmatch S.p.A.
-    </p>
-    <p>
-      NOTE: The desktop app has been discontinued by Musixmatch S.p.A.
-    </p>
   </description>
   <screenshots>
     <screenshot type="default">
